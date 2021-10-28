@@ -18,7 +18,7 @@ public class BaseDAO {
     {
         connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/postgres?currentSchema=musicstreaming",
-                "postgres", "123456789");
+                "postgres", "190292");
 
         return connection;
     }
